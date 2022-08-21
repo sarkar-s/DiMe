@@ -1,21 +1,18 @@
-#+TITLE: MeDiNN: Mean to distribution using neural network
+#+TITLE: DiME: Distribution from Mean using neural network
 
-Distribution from Mean using neural network DiMe
-
-MeDiNN is a python software package to compute the distribution in gene expression from mean dose-response curves. MeDiNN was
-developed to compute the gene expression distribution for the synthetic genetic sensors developed by NIST's Genetic Sensor Foundry (https://doi.org/10.15252/msb.202010179).
-The cytometry and the mean dose-response data used to train MeDiNN and then predict the gene expression distribution are from the above paper.
+DiMe is a python software package to compute the distribution in gene expression from mean dose-response curves. DiMe was
+developed to compute the gene expression distribution for the synthetic genetic sensors developed by NIST's Genetic Sensor Foundry (https://doi.org/10.15252/msb.202010179). The cytometry and the mean dose-response data used to train DiMe and then predict the gene expression distribution are from the above paper.
 
 * System Requirements
 
 ** Hardware requirements
-   ~MeDiNN~ was primarily developed and used on an Apple MacMini with 16 GB RAM. Other computers should be also adequate.
+   ~DiMe~ was primarily developed and used on an Apple MacMini with 16 GB RAM. Other computers should be also adequate.
 
 ** Software requirements
-   CoRe is supported for macOS, Monterey (12.4), and has not been tested for other systems yet.
+   DiMe is supported for macOS, Monterey (12.4), and has not been tested for other systems yet.
 
 ** Python Dependencies
-   ~MeDiNN~ needs the following libraries:
+   ~DiMe~ needs the following libraries:
    - ~TensorFlow~
    - ~pandas~
    - ~numpy~
