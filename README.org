@@ -6,7 +6,7 @@ developed to compute the gene expression distribution for the synthetic genetic 
 * System Requirements
 
 ** Hardware requirements
-   ~DiMe~ was primarily developed and used on an Apple MacMini with 16 GB RAM. Other computers should be also adequate.
+   ~DiMe~ was primarily developed and used on an Apple M1 MacBook Pro with 16 GB RAM. Other computers should be also adequate.
 
 ** Software requirements
    DiMe is supported for macOS, Monterey (12.4), and has not been tested for other systems yet.
