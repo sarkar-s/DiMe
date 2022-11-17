@@ -1,7 +1,7 @@
 #+TITLE: DiME: Distribution from Mean using neural network
 
 DiMe is a python software package to compute the distribution in gene expression from mean dose-response curves. DiMe was
-developed to compute the gene expression distribution for the synthetic genetic sensors developed by NIST's Genetic Sensor Foundry (https://doi.org/10.15252/msb.202010179). The cytometry and the mean dose-response data used to train DiMe and then predict the gene expression distribution are from the above paper.
+developed to compute the gene expression distribution for the synthetic genetic sensors developed by NIST's Genetic Sensor Foundry (https://doi.org/10.15252/msb.202010179). The neural network model was trained using the flow cytometry data for 100 genetic sensors and was then used to predict the gene expression distribution of the other sensors in the library (approx. 50,000).
 
 * System Requirements
 
